@@ -44,6 +44,7 @@ TAG di formattazione del testo
 <i>corsivo</i>
 <strong>grassetto</strong><!--dico al browser che è un testo importante-->
 <!--La differenza si vede negli screen reader, per i ciechi-->
+<a src="path">link</a>
 ```
 # CSS
 Cascading Style Sheets
@@ -51,7 +52,10 @@ Cascading Style Sheets
 /*Regole*/
 div { /*a chi devo applicarla? in questo caso ad ogni tag div*/
   width: 800px / 2em / 0.4rem / calc(100% - 8px);
-  margin: auto;
+  margin: auto; /*margin left e right in maniera da centrare l'elemento rispetto al suo contenitore*/
+  margin: 2px; /* ogni direzione ha 2px di margine */
+  margin: 2px 10px; /* sopra e sotto ho 2px, sinistra e destra ne ho 10 */
+  margin: 0 1px 2px 3px; /* top, right, bottom, left */
 }
 
 /*Formatting*/
