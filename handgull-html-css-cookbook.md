@@ -21,7 +21,8 @@ Table of Contents
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--user's visible area of the page, ottimo meta per gli smartphone-->
     <link type="text/css" rel="stylesheet" href="path">
-    <style><!--regole CSS direttamente nel documento-->
+    <!--regole CSS direttamente nel documento-->
+    <style>
       h1 {
         color: #123456
       }
